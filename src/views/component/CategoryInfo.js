@@ -1,5 +1,5 @@
 import './../../assets/scss/component/CategoryInfo.scss';
-import CustomCard from './CustomCard';
+import CardSlider from './CardSlider';
 
 const CategoryInfo = ({title}) => {
     const array_example = [
@@ -18,7 +18,7 @@ const CategoryInfo = ({title}) => {
                 {title}
             </div>
             <div>
-                <CustomCard array={array_example}/>
+                <CardSlider array={array_example}/>
             </div>
         </>
     );
